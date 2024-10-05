@@ -11,7 +11,7 @@ UI.prototype.addCarToUI = function (newCar) {
         <td><img src="${newCar.url}" class="img-fluid img-thumbnail"></td>
         <td>${newCar.title}</td>
         <td>${newCar.price}</td>
-        <td><a href="#" id="delete-car" class="btn btn-danger">Aracı Sil</a></td>
+        <td><a href="#" id="delete-car" class="btn btn-danger">Delete Vehicle</a></td>
     </tr>
     `;
 }
