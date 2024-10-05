@@ -46,7 +46,7 @@ UI.prototype.loadAllCars = function (cars) {
         <td><img src="${car.url}" class="img-fluid img-thumbnail"></td>
         <td>${car.title}</td>
         <td>${car.price}</td>
-        <td><a href="#" id="delete-car" class="btn btn-danger">Aracı Sil</a></td>
+        <td><a href="#" id="delete-car" class="btn btn-danger">Delete Vehicle</a></td>
     </tr>
     `;
     });
